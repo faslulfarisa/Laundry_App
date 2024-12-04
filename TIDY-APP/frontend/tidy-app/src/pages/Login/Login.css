@@ -1,0 +1,23 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-sub-container{
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.styled-paragraph{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+.styled-link{
+    color: #007bff;
+}

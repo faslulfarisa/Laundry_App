@@ -1,0 +1,42 @@
+.home-container{
+    padding: 25px;
+    margin: 10px;
+}
+.top-section,.bottom-section{
+    display: flex;
+}
+.profile-section,.create-order-section,.my-orders-section,.support-section{
+    border: 1px solid black;
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center; 
+    padding: 35px 30px;
+    border: none;
+}
+.profile-section{
+    background-color:#a075c9;
+}
+.create-order-section{
+    background-color:#c4a1e5;
+}
+.my-orders-section{
+    background-color:#81669a;
+}
+.support-section{
+    background-color:#935dc2;
+}
+.icon-padding,.section-link{
+    padding: 25px 30px;
+}
+.icon-padding{
+    font-size:24px
+}
+.section-link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+}
+

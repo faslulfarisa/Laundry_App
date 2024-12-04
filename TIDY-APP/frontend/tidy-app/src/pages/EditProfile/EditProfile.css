@@ -1,0 +1,42 @@
+.edit-icon-container{
+    font-weight: bold; 
+    text-align: right;
+    padding-right: 30px;
+    font-size: 18px;
+    color: #555;
+}
+.edit-icon-container svg {
+    margin-left: 8px;
+    color: #81669a;
+    cursor: pointer;
+}
+.edit-icon-container:hover svg {
+    color: black;
+}
+.form-container{
+    border: 1px solid black;
+    padding: 25px;
+    margin: 30px;
+    background-color:#81669a;
+}
+.textarea-box{
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 14px;
+    margin-bottom: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    height: 100px;
+}
+.textarea-box.read-only {
+    background-color: #f0f0f0; 
+    cursor: not-allowed;
+    color: #888; 
+}
+.change-password-button.user-profile {
+    right: 85px;
+    bottom: 1px;
+    margin-bottom: 1px;
+}
+

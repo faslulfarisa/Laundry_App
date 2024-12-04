@@ -1,0 +1,44 @@
+h5,.estimated-delivery{
+  text-align: left;
+  padding: 30px;
+  font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(90, 73, 73, 0.1);
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    width: 100px;
+    padding: 10px;
+  }
+  .step-icon {
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 2rem;
+  }
+  .step-label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #666;
+  }
+
+
+
+

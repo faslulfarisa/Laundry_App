@@ -1,0 +1,67 @@
+.sidebar-container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 250px;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-img-container{
+    padding: 15px;
+}
+.profile-img-container img{
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px; 
+    padding: 10px;
+    cursor: pointer;
+    object-fit: cover;
+    border: 2px solid #81669a; 
+}
+.profile-img-container input[type='file'] {
+    cursor: pointer;
+    display: none;
+}
+.image-save-button{
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: #6a4f87;
+    color:white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+}
+.menu{
+    padding: 20px;
+    background-color:#81669a;
+    color: white;
+}
+.menu-item{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.menu-item:hover {  
+    color: black;
+}
+.page-link {
+    color: white;
+    text-decoration: none;
+} 
+.page-link:hover {
+    color:black;
+    background-color:#ddd;
+    padding: 10px 20px;
+} 
+.active-link {
+    color:black;
+    background-color:#ddd;
+    text-decoration: none;
+    padding: 10px 20px;
+}

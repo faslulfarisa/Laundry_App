@@ -1,0 +1,33 @@
+/* .myorder-container{
+    display: flex;
+    gap: 30px;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 25px;
+} */
+/* .myorder-table-container{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+.myorder-table{
+    border-collapse: collapse;
+    margin:20px 40px;
+}
+.myorder-table th,.myorder-table td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+.myorder-table th {
+    background-color: #81669a;
+    color: white;
+}
+.myorder-table tr:hover {
+    background-color: #ddd;
+}

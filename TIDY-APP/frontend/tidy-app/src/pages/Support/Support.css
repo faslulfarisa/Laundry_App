@@ -1,0 +1,11 @@
+.contact-info {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.contact-info h3 {
+    font-size: 22px;
+    color: #333;
+}
+.contact-info p {
+    color: #555;
+}
