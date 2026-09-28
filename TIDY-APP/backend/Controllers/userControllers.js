@@ -251,8 +251,8 @@ const getUser = async(req,res)=>{
             address: isUser.address,
             zipCode: isUser.zipCode,
             profileImage: isUser.profileImage
-            ? `http://localhost:3000/${isUser.profileImage.replace(/\\/g, "/")}`
-            : "http://localhost:3000/default-profile.png",
+            ? `http://localhost:${process.env.PORT || 5000}/${isUser.profileImage.replace(/\\/g, "/")}`
+            : `http://localhost:${process.env.PORT || 5000}/default-profile.png`,
 
         },
 

@@ -32,7 +32,7 @@ const Sidebar = () => {
             // console.log("Fetched User Data:", user);
             // console.log("Profile Image:", user.profileImage || "No profile image provided");
             const profileImageURL = user.profileImage
-            ? user.profileImage.replace(/^http:\/\/localhost:3000\/\//, 'http://localhost:3000/')
+            ? user.profileImage.replace(/^http:\/\/localhost:\d+\/\//, (match) => match.slice(0, -1))
             : ProfileImg; 
             setSelectedImage(profileImageURL);
 
